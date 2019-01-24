@@ -2,6 +2,9 @@ feather.replace();
 function goToMain() {
     window.location.assign("https://acervatio.org");
 }
+function goToIg() {
+    window.location.assign("https://instagram.com/acervatio");
+}
 function classToggle() {
     const navs = document.querySelectorAll('.nav-items')
 

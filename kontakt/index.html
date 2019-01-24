@@ -10,9 +10,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
     <link href="../style.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Arimo:400,700i" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:900i" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Arimo:400,700i" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
 
 <body>
@@ -37,7 +38,7 @@
 
     <div class="about forms">
         <div class="title-form">Kontaktirajte nas</div>
-        <div class="subtitle" style="font-style:normal; font-size:1.4rem;">Postavite nam pitanja vezana za naš rad,
+        <div class="subtitle-form" style="font-style:normal; font-size:1.4rem;">Postavite nam pitanja vezana za naš rad,
             naše projekte te ako i vi imate neku ideju, slobodno je podijelite
             s nama.</div>
         <form action="send_email.php" method="POST">
@@ -45,6 +46,7 @@
             <input type="text" id="email" name="email" placeholder="Vaša e-mail adresa...">
             <textarea id="message" name="message" placeholder="Vaša poruka..." style="height:140px"></textarea>
             <input type="submit" class="round-button" value="Pošalji">
+            <div class="g-recaptcha" data-sitekey="6LdioH8UAAAAABumOO9be8MBQleyuNw5G3A8u9kU"></div>
         </form>
     </div>
 

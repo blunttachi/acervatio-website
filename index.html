@@ -10,8 +10,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
     <link href="style.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Arimo:400,700i" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:900i" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Arimo:400,700" rel="stylesheet"> -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,900" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
 </head>
 
@@ -33,7 +33,7 @@
             </div>
         </nav>
     </div>
-    
+
     <div class="intro">
         <img id="logo-big" src="img/blue_acervatio.svg" alt="Logo" width="120px" height="119px">
         <div class="acervatio">ACERVATIO</div>
@@ -41,7 +41,7 @@
 
     <div class="section about">
         <!--O NAMA-->
-        <div class="title">Acervatio? Čime se bavimo?</div>
+        <div class="title">Čime se bavimo?</div>
         <div class="container">
             <div class="item">
                 <i class="icon-big" data-feather="users"></i>
@@ -100,23 +100,40 @@
         </div>
     </div>
 
-    <div class="section footer">
-        <!--SOCIAL-->
-        <div class="subtitle" style="font-style: normal; color: white">Pratite nas na društevnim mrežama!</div>
-        <div class="social">
-            <a href="https://www.facebook.com/acervatio/" rel="noopener">
-                <div class="round-button fb">
-                    <i class="icon" data-feather="facebook"></i>
-                    Facebook
-                </div>
-            </a>
-            <a href="https://www.instagram.com/acervatio/" rel="noopener">
-                <div class="round-button ig">
-                    <i class="icon" data-feather="instagram"></i>
-                    Instagram
-                </div>
-            </a>
+    <div class="section donate">
+        <div class="title">Poduprite nas!</div>
+        <div class="container">
+            <div class="text">Acervatio kao udruga nema izvor stalnih sredstava koje su nam potrebne za
+                funkcioniranje. Novci su nam potrebni za širenje naše ideje, unapređenje opreme koju koristimo i
+                podmirivanje svih troškova. Ako vam se sviđa ono što radimo i želite vidjeti kako rastemo, možete
+                donirati na jedan od tri ponuđena načina. Minimalan iznos donacije ne postoji.</div>
+            <div class="item">
+                <!-- <div class="subtitle">PayPal</div> -->
+                <img src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/PP_logo_h_150x38.png" alt="PayPal Logo">
+            </div>
+            <div class="item">
+                <!-- <div class="subtitle">Bitcoin</div> -->
+                <img src="http://bitcoinlogo.net/images/BC_Logotype.png" height="38px" width="182px" alt="BitCoin logo">
+            </div>
+            <div class="item">
+                <div class="subtitle">BANKOVNI RAČUN</div>
+                <div class="content"></div>
+            </div>
         </div>
+    </div>
+
+    <div class="section footer">
+        
+            <!-- <h class="acervatio-footer">ACERVATIO</h> -->
+            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Facervatio&tabs&width=200px&height=130&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=false&appId" width="200px" height="130" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+            <!-- <a href="https://www.facebook.com/acervatio/" rel="noopener">
+                <i class="icon-soc" data-feather="facebook"></i>
+            </a> -->
+            <!-- <a href="https://www.instagram.com/acervatio/" rel="noopener">
+                <i class="icon-soc" data-feather="instagram"></i>
+            </a> -->
+            <img src="img/acervatio_nametag.png" width="130px" height="130px" style="padding-left: 1rem; cursor:pointer;" onclick="goToIg()"/>
+        
     </div>
 
     <script src="main.js"></script>
