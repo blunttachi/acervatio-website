@@ -1,0 +1,72 @@
+[17-May-2018 09:44:26 UTC] PHP Notice:  Undefined index: name in /home/acervati/public_html/kontakt/send_email.php on line 1
+[17-May-2018 09:44:26 UTC] PHP Notice:  Undefined index: email in /home/acervati/public_html/kontakt/send_email.php on line 2
+[17-May-2018 09:44:26 UTC] PHP Notice:  Undefined index: message in /home/acervati/public_html/kontakt/send_email.php on line 3
+[17-May-2018 09:47:36 UTC] PHP Notice:  Undefined index: name in /home/acervati/public_html/kontakt/send_email.php on line 1
+[17-May-2018 09:47:36 UTC] PHP Notice:  Undefined index: email in /home/acervati/public_html/kontakt/send_email.php on line 2
+[17-May-2018 09:47:36 UTC] PHP Notice:  Undefined index: message in /home/acervati/public_html/kontakt/send_email.php on line 3
+[17-May-2018 09:49:15 UTC] PHP Notice:  Undefined index: name in /home/acervati/public_html/kontakt/send_email.php on line 1
+[17-May-2018 09:49:15 UTC] PHP Notice:  Undefined index: email in /home/acervati/public_html/kontakt/send_email.php on line 2
+[17-May-2018 09:49:15 UTC] PHP Notice:  Undefined index: message in /home/acervati/public_html/kontakt/send_email.php on line 3
+[17-May-2018 10:07:15 UTC] PHP Notice:  Undefined index: name in /home/acervati/public_html/kontakt/send_email.php on line 1
+[17-May-2018 10:07:15 UTC] PHP Notice:  Undefined index: email in /home/acervati/public_html/kontakt/send_email.php on line 2
+[17-May-2018 10:07:15 UTC] PHP Notice:  Undefined index: message in /home/acervati/public_html/kontakt/send_email.php on line 3
+[17-May-2018 11:15:16 UTC] PHP Notice:  Undefined index: name in /home/acervati/public_html/kontakt/send_email.php on line 1
+[17-May-2018 11:15:16 UTC] PHP Notice:  Undefined index: email in /home/acervati/public_html/kontakt/send_email.php on line 2
+[17-May-2018 11:15:16 UTC] PHP Notice:  Undefined index: message in /home/acervati/public_html/kontakt/send_email.php on line 3
+[17-May-2018 11:23:08 UTC] PHP Parse error:  syntax error, unexpected '$message' (T_VARIABLE) in /home/acervati/public_html/kontakt/send_email.php on line 4
+[17-May-2018 11:23:15 UTC] PHP Parse error:  syntax error, unexpected '$message' (T_VARIABLE) in /home/acervati/public_html/kontakt/send_email.php on line 4
+[17-May-2018 11:24:07 UTC] PHP Parse error:  syntax error, unexpected '"' in /home/acervati/public_html/kontakt/send_email.php on line 4
+[17-May-2018 11:25:09 UTC] PHP Notice:  Undefined index: name in /home/acervati/public_html/kontakt/send_email.php on line 1
+[17-May-2018 11:25:09 UTC] PHP Notice:  Undefined index: email in /home/acervati/public_html/kontakt/send_email.php on line 2
+[17-May-2018 11:25:09 UTC] PHP Notice:  Undefined index: message in /home/acervati/public_html/kontakt/send_email.php on line 3
+[17-May-2018 11:25:19 UTC] PHP Notice:  Undefined index: name in /home/acervati/public_html/kontakt/send_email.php on line 1
+[17-May-2018 11:25:19 UTC] PHP Notice:  Undefined index: email in /home/acervati/public_html/kontakt/send_email.php on line 2
+[17-May-2018 11:25:19 UTC] PHP Notice:  Undefined index: message in /home/acervati/public_html/kontakt/send_email.php on line 3
+[17-May-2018 11:25:53 UTC] PHP Parse error:  syntax error, unexpected '$message' (T_VARIABLE) in /home/acervati/public_html/kontakt/send_email.php on line 4
+[17-May-2018 11:26:05 UTC] PHP Parse error:  syntax error, unexpected '$message' (T_VARIABLE) in /home/acervati/public_html/kontakt/send_email.php on line 4
+[17-May-2018 11:26:34 UTC] PHP Notice:  Undefined index: name in /home/acervati/public_html/kontakt/send_email.php on line 1
+[17-May-2018 11:26:34 UTC] PHP Notice:  Undefined index: email in /home/acervati/public_html/kontakt/send_email.php on line 2
+[17-May-2018 11:26:34 UTC] PHP Notice:  Undefined index: message in /home/acervati/public_html/kontakt/send_email.php on line 3
+[17-May-2018 11:28:07 UTC] PHP Notice:  Undefined index: name in /home/acervati/public_html/kontakt/send_email.php on line 1
+[17-May-2018 11:28:07 UTC] PHP Notice:  Undefined index: email in /home/acervati/public_html/kontakt/send_email.php on line 2
+[17-May-2018 11:28:07 UTC] PHP Notice:  Undefined index: message in /home/acervati/public_html/kontakt/send_email.php on line 3
+[17-May-2018 11:29:06 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/acervati/public_html/kontakt/send_email.php on line 4
+[17-May-2018 12:08:56 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/acervati/public_html/kontakt/send_email.php on line 5
+[17-May-2018 12:09:13 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/acervati/public_html/kontakt/send_email.php on line 5
+[17-May-2018 12:12:18 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/acervati/public_html/kontakt/index.php on line 5
+[17-May-2018 12:13:17 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/acervati/public_html/kontakt/index.php on line 5
+[17-May-2018 12:13:21 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/acervati/public_html/kontakt/index.php on line 5
+[17-May-2018 12:15:39 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/acervati/public_html/kontakt/send_email.php on line 5
+[17-May-2018 12:16:59 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/acervati/public_html/kontakt/send_email.php on line 5
+[17-May-2018 12:17:44 UTC] PHP Notice:  Undefined index: name in /home/acervati/public_html/kontakt/send_email.php on line 2
+[17-May-2018 12:17:44 UTC] PHP Notice:  Undefined index: email in /home/acervati/public_html/kontakt/send_email.php on line 3
+[17-May-2018 12:17:44 UTC] PHP Notice:  Undefined index: message in /home/acervati/public_html/kontakt/send_email.php on line 4
+[17-May-2018 12:18:42 UTC] PHP Notice:  Undefined index: name in /home/acervati/public_html/kontakt/send_email.php on line 2
+[17-May-2018 12:18:42 UTC] PHP Notice:  Undefined index: email in /home/acervati/public_html/kontakt/send_email.php on line 3
+[17-May-2018 12:18:42 UTC] PHP Notice:  Undefined index: message in /home/acervati/public_html/kontakt/send_email.php on line 4
+[17-May-2018 12:18:57 UTC] PHP Notice:  Undefined index: name in /home/acervati/public_html/kontakt/send_email.php on line 2
+[17-May-2018 12:18:57 UTC] PHP Notice:  Undefined index: email in /home/acervati/public_html/kontakt/send_email.php on line 3
+[17-May-2018 12:18:57 UTC] PHP Notice:  Undefined index: message in /home/acervati/public_html/kontakt/send_email.php on line 4
+[17-May-2018 12:22:16 UTC] PHP Notice:  Undefined index: name in /home/acervati/public_html/kontakt/send_email.php on line 2
+[17-May-2018 12:22:16 UTC] PHP Notice:  Undefined index: email in /home/acervati/public_html/kontakt/send_email.php on line 3
+[17-May-2018 12:22:16 UTC] PHP Notice:  Undefined index: message in /home/acervati/public_html/kontakt/send_email.php on line 4
+[17-May-2018 15:04:08 UTC] PHP Notice:  Undefined index: name in /home/acervati/public_html/kontakt/send_email.php on line 2
+[17-May-2018 15:04:08 UTC] PHP Notice:  Undefined index: email in /home/acervati/public_html/kontakt/send_email.php on line 3
+[17-May-2018 15:04:08 UTC] PHP Notice:  Undefined index: message in /home/acervati/public_html/kontakt/send_email.php on line 4
+[17-May-2018 15:09:45 UTC] PHP Notice:  Undefined index: name in /home/acervati/public_html/kontakt/send_email.php on line 3
+[17-May-2018 15:09:45 UTC] PHP Notice:  Undefined index: email in /home/acervati/public_html/kontakt/send_email.php on line 4
+[17-May-2018 15:09:45 UTC] PHP Notice:  Undefined index: message in /home/acervati/public_html/kontakt/send_email.php on line 5
+[17-May-2018 15:11:13 UTC] PHP Notice:  Undefined index: name in /home/acervati/public_html/kontakt/send_email.php on line 3
+[17-May-2018 15:11:13 UTC] PHP Notice:  Undefined index: email in /home/acervati/public_html/kontakt/send_email.php on line 4
+[17-May-2018 15:11:13 UTC] PHP Notice:  Undefined index: message in /home/acervati/public_html/kontakt/send_email.php on line 5
+[17-May-2018 15:44:50 UTC] PHP Parse error:  syntax error, unexpected 'header' (T_STRING) in /home/acervati/public_html/kontakt/send_email.php on line 12
+[17-May-2018 15:48:26 UTC] PHP Parse error:  syntax error, unexpected '$thanks' (T_VARIABLE), expecting ',' or ')' in /home/acervati/public_html/kontakt/send_email.php on line 12
+[16-Sep-2018 06:46:16 UTC] PHP Notice:  Undefined index: name in /home/acervati/public_html/kontakt/send_email.php on line 3
+[16-Sep-2018 06:46:16 UTC] PHP Notice:  Undefined index: email in /home/acervati/public_html/kontakt/send_email.php on line 4
+[16-Sep-2018 06:46:17 UTC] PHP Notice:  Undefined index: message in /home/acervati/public_html/kontakt/send_email.php on line 5
+[08-Oct-2018 01:42:43 UTC] PHP Notice:  Undefined index: name in /home/acervati/public_html/kontakt/send_email.php on line 3
+[08-Oct-2018 01:42:43 UTC] PHP Notice:  Undefined index: email in /home/acervati/public_html/kontakt/send_email.php on line 4
+[08-Oct-2018 01:42:43 UTC] PHP Notice:  Undefined index: message in /home/acervati/public_html/kontakt/send_email.php on line 5
+[22-Oct-2018 14:48:50 UTC] PHP Notice:  Undefined index: name in /home/acervati/public_html/kontakt/send_email.php on line 3
+[22-Oct-2018 14:48:50 UTC] PHP Notice:  Undefined index: email in /home/acervati/public_html/kontakt/send_email.php on line 4
+[22-Oct-2018 14:48:50 UTC] PHP Notice:  Undefined index: message in /home/acervati/public_html/kontakt/send_email.php on line 5

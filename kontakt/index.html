@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="hr">
+
+<head>
+    <title>Acervatio</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Udruga koja teži boljem sutra">
+    <meta name="keywords" content="Acervatio, 3D printing, programming, 3D printanje, programiranje">
+    <meta name="author" content="Marin Dominiković">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
+    <link href="../style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arimo:400,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:900i" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+</head>
+
+<body>
+    
+    <div class="navbar">
+        <img class="logo" src="../img/blue_acervatio.svg" alt="Logo" width="47px" height="46px" onclick="goToMain()" />
+        <div class="nav-item toggle">
+            <i class="icon" data-feather="menu"></i>
+        </div>
+        <nav class="nav-items">
+            <div class="nav-item underline-anim">
+                <a href="../">Naslovnica</a>
+            </div>
+            <div class="nav-item underline-anim">
+                <a href="https://medium.com/@acervatio">Blog</a>
+            </div>
+            <div class="nav-item underline-anim">
+                <a href="#">O nama</a>
+            </div>
+        </nav>
+    </div>
+
+    <div class="about forms">
+        <div class="title-form">Kontaktirajte nas</div>
+        <div class="subtitle" style="font-style:normal; font-size:1.4rem;">Postavite nam pitanja vezana za naš rad,
+            naše projekte te ako i vi imate neku ideju, slobodno je podijelite
+            s nama.</div>
+        <form action="send_email.php" method="POST">
+            <input type="text" id="name" name="name" placeholder="Vaše ime i prezime...">
+            <input type="text" id="email" name="email" placeholder="Vaša e-mail adresa...">
+            <textarea id="message" name="message" placeholder="Vaša poruka..." style="height:140px"></textarea>
+            <input type="submit" class="round-button" value="Pošalji">
+        </form>
+    </div>
+
+    <script src="../main.js"></script>
+</body>
+
+</html>

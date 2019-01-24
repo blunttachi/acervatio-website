@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="hr">
+
+<head>
+    <title>Acervatio</title>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Udruga koja teži boljem sutra">
+    <meta name="keywords" content="Acervatio, 3D printing, programming, 3D printanje, programiranje">
+    <meta name="author" content="Marin Dominiković">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Arimo:400,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:900i" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+</head>
+
+<body>
+    <div class="navbar">
+        <img class="logo" src="img/blue_acervatio.svg" alt="Logo" width="47px" height="46px" onclick="goToMain()" />
+        <div class="nav-item toggle">
+            <i class="icon" data-feather="menu"></i>
+        </div>
+        <nav class="nav-items">
+            <div class="nav-item underline-anim">
+                <a href="https://medium.com/@acervatio">Blog</a>
+            </div>
+            <div class="nav-item underline-anim">
+                <a href="kontakt/index.html">Kontakt</a>
+            </div>
+            <div class="nav-item underline-anim">
+                <a href="#">O nama</a>
+            </div>
+        </nav>
+    </div>
+    
+    <div class="intro">
+        <img id="logo-big" src="img/blue_acervatio.svg" alt="Logo" width="120px" height="119px">
+        <div class="acervatio">ACERVATIO</div>
+    </div>
+
+    <div class="section about">
+        <!--O NAMA-->
+        <div class="title">Acervatio? Čime se bavimo?</div>
+        <div class="container">
+            <div class="item">
+                <i class="icon-big" data-feather="users"></i>
+                <div class="subtitle">Udruga</div>
+                <div class="content">koja se bavi 3D printanjem i programiranjem. Skupina istomišljenika sa zajedničkim
+                    nazivnikom ljubavi prema
+                    novim tehnologijama posljednjih smo se godina zajedno “odgojili” uz timski rad kojem nikad nije
+                    manjkalo
+                    dobrog smijeha i zabave što nas je naposlijetku dovelo do sudjelovanja u raznim natjecanjima i
+                    radionicama
+                    kao i održavanju vlastitih nadolazećim generacijama na lokalnoj razini.
+                </div>
+            </div>
+            <div class="item">
+                <i class="icon-big" data-feather="box"></i>
+                <div class="subtitle">3D printanje</div>
+                <div class="content">Upravo je 3D printanje i njegova popularizacija bila razlog stvaranja Acervatia.
+                    Radi se o tehnologiji koja,
+                    prema računalnom modelu, nanosi tanke slojeve materijala u trodimenzionalnom prostoru, i na taj
+                    način
+                    omogućuje izradu preciznijih i kompleksnijih prototipa - to je primarna svrha njihove upotrebe u
+                    područjima
+                    poput dizajna, arhitekture, izgradnje strojeva itd.
+                    <br>
+                    <br>U edukaciji može poslužiti za bolju vizualizaciju molekula ili geometrijskih tijela, a
+                    obećavajuće rezultate
+                    pokazuje i u medicini (printanje lijekova, jednostavnih tkiva, proteza).
+                    <br>
+                    <br>Nakon crowdfunding kampanje, dobivanja Prusina modela i tzv.
+                    <i>Acervathona</i>, Acervatio je u posjedu triju funkcionalnih printera.</div>
+            </div>
+            <div class="item">
+                <i class="icon-big" data-feather="code"></i>
+                <div class="subtitle">Programiranje</div>
+                <div class="content">Programiranje je namjenjeno svima, od učenika, studenata do radnika, a znanja
+                    stečena učenjem programiranja
+                    pomažu u raznim aspektima. Od
+                    <a href="https://www.businessinsider.com/guy-spent-11000-on-a-coding-bootcamp-and-doubled-his-salary-2013-4">financijskog</a>
+                    do individualnog. Programiranje je djelatnost koja olakšava pristup velikome broju problema, no
+                    vrijednost koju pruža svima,
+                    bez obzira koliko dobri ili loši bili, očituje se u promjeni perspektive.
+                    <i>Coding forces us to think computationally</i>.
+                    <br>
+                    <br>
+                    <!-- Tzv. computational thinking benefit je očit i u početnim fazama.
+                    2006. u članku (umeti link https://www.cs.cmu.edu/~15110-s13/Wing06-ct.pdf) se Jeannette Wing ističe
+                    potreba za osnovama tzv. computational thinkinga u kurikulumima. Odtad,  -->
+                    Implementacija programiranja nailazi na niz prepreka u svezi s K-12 modelom obrazovanja raširenim u
+                    svijetu. Iako je do danas
+                    učinjen znakovit pomak, kako u svijetu, tako i u Hrvatskoj, programi su često spori, zastarjeli i
+                    rijetko
+                    praktični. Upravo nas je takav situacija potaknula pružiti učenica vlastite škole pristup modernim,
+                    aktualnim
+                    trendovima i ponuditi pomoć u učenju programiranja.</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section footer">
+        <!--SOCIAL-->
+        <div class="subtitle" style="font-style: normal; color: white">Pratite nas na društevnim mrežama!</div>
+        <div class="social">
+            <a href="https://www.facebook.com/acervatio/" rel="noopener">
+                <div class="round-button fb">
+                    <i class="icon" data-feather="facebook"></i>
+                    Facebook
+                </div>
+            </a>
+            <a href="https://www.instagram.com/acervatio/" rel="noopener">
+                <div class="round-button ig">
+                    <i class="icon" data-feather="instagram"></i>
+                    Instagram
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
